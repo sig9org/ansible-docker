@@ -8,6 +8,6 @@ RUN rm -f /root/anaconda-ks.cfg \
  && curl -O https://bootstrap.pypa.io/get-pip.py \
  && python get-pip.py \
  && rm -f get-pip.py \
- && pip install ansible==2.4.0 \
+ && pip install ansible==2.4.0 pysphere \
  && yum clean all
 WORKDIR /root
